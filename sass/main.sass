@@ -12,6 +12,7 @@ body
   padding: 0 10px
   
 
+
 @import "var"
 
 .button
@@ -21,7 +22,30 @@ body
   border: none
   border-radius: 5px
   cursor: pointer
-      
 
+.title
+  font-size: 27px
+  line-height: 27px
+  font-weight: 700
+  text-transform: uppercase
+  color: #313131
+  text-align: center
+  &::after
+    content: ''
+    background: url(../icons/line.png) center no-repeat
+    display: block
+    width: 46px
+    height: 6px
+    margin: 12px auto 0 auto 
 @import "blocks/header"
 @import "blocks/promo"
+@import "blocks/advantages"
+@import "blocks/products"
+@import "blocks/spec-offer"
+@import "blocks/production"
+@import "blocks/our-clients"
+@import "blocks/reviews"
+@import "blocks/footer"
+@import "blocks/modal"
+
+

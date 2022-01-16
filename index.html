@@ -8,8 +8,13 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+/>
   <link rel="stylesheet" href="css/main.css" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+  
 </head>
 
 <body>
@@ -207,6 +212,71 @@
     </div>
   </section>
 
+  
+  <section class="production">
+    <div class="container">
+      <div class="production__wrap">
+        <div class="production__slider">
+
+          <div class="production__slider-for">
+            <div class="production__slid">
+              <img src="./img/production/production-1.png" alt="">
+            </div>
+            <div class="production__slid">
+              <img src="./img/production/production-2.jpg" alt="">
+            </div>
+            <div class="production__slid">
+              <img src="./img/production/production-3.jpg" alt="">
+            </div>
+            <div class="production__slid">
+              <img src="./img/production/production-1.png" alt="">
+            </div>
+            <div class="production__slid">
+              <img src="./img/production/production-1.png" alt="">
+            </div>
+          </div>
+
+          <div class="production__slider-wrap">
+            <div class="production__slider-btns">
+            </div>
+            <div class="production__slider-nav">
+              <div class="production__slider-img">
+                <img src="./img/production/production-1.png" alt="">
+              </div> 
+              <div class="production__slider-img">
+                <img src="./img/production/production-2.jpg" alt="">
+              </div> 
+              <div class="production__slider-img">
+                <img src="./img/production/production-3.jpg" alt="">
+              </div> 
+              <div class="production__slider-img">
+                <img src="./img/production/production-1.png" alt="">
+              </div> 
+              <div class="production__slider-img">
+                <img src="./img/production/production-1.png" alt="">
+              </div> 
+            </div>
+          </div>
+  
+        </div>
+        <div class="production__info">
+          <h3 class="production__info-title">Производство</h3>
+          <p class="production__info-text">
+            Современное оборудование позволяет произ- водить до 5 миллионов квадратных метров гофрокартона ежемесячно.
+            Гофрокороба и лотки производятся по ГОСТу или чертежам заказчика.
+          </p>
+          <p class="production__info-text">
+            Досконально прорабатываем конструкции коро- бов и составы сырья, учитывая условия хранения, транспортировки
+            и производства вашей продукции.
+          </p>
+          <p class="production__info-text">
+            Возможно нанесение цветной флексопечати на поверхность коробов.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <section class="our-clients">
     <div class="container">
@@ -259,19 +329,29 @@
         <div class="reviews__slider-btns"></div>
         <div class="reviews__slider-inner">
           <div class="reviews__slide">
-            <img src="img/reviews/reviews_1.jpg" alt="" class="reviews__slide-img" />
+            <a data-fancybox="gallery" href="img/reviews/reviews_1.jpg">
+              <img src="img/reviews/reviews_1.jpg" alt="" class="reviews__slide-img" />
+            </a>
           </div>
           <div class="reviews__slide">
-            <img src="img/reviews/reviews_2.jpg" alt="" class="reviews__slide-img" />
+            <a data-fancybox="gallery" href="img/reviews/reviews_2.jpg">
+              <img src="img/reviews/reviews_2.jpg" alt="" class="reviews__slide-img" />
+            </a>
           </div>
           <div class="reviews__slide">
-            <img src="img/reviews/reviews_3.jpg" alt="" class="reviews__slide-img" />
+            <a data-fancybox="gallery" href="img/reviews/reviews_3.jpg">
+              <img src="img/reviews/reviews_3.jpg" alt="" class="reviews__slide-img" />
+            </a>
           </div>
           <div class="reviews__slide">
-            <img src="img/reviews/reviews_3.jpg" alt="" class="reviews__slide-img" />
+            <a data-fancybox="gallery" href="img/reviews/reviews_3.jpg">
+              <img src="img/reviews/reviews_3.jpg" alt="" class="reviews__slide-img" />
+            </a>
           </div>
           <div class="reviews__slide">
-            <img src="img/reviews/reviews_3.jpg" alt="" class="reviews__slide-img" />
+            <a data-fancybox="gallery" href="img/reviews/reviews_3.jpg">
+              <img src="img/reviews/reviews_3.jpg" alt="" class="reviews__slide-img" />
+            </a>
           </div>
         </div>
       </div>
@@ -308,6 +388,7 @@
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
   <script src="js/jquery.maskedinput.min.js"></script>
   <script src="js/main.js"></script>
 </body>

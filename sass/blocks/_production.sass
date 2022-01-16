@@ -1,0 +1,86 @@
+.production
+  padding: 87px 0 94px
+  &__wrap
+    display: flex
+    align-items: center
+    justify-content: center
+  &__inner
+    margin-bottom: 13px                             
+  &__slid
+    width: 535px    
+    height: 377px  
+    & > img
+      object-fit: cover
+      width: 100%
+      height: 100%
+  &__slider
+    &-for           
+      width: 535px  
+      margin-bottom: 13px
+    &-wrap
+      position: relative 
+      width: 535px
+    &-btns
+      position: absolute  
+      width: 100%
+      height: 100%
+      z-index: 100      
+    &-btn
+      position: absolute
+      width: 22px 
+      height: 100%            
+      cursor: pointer 
+      border: 1px solid $main-color
+      transition:  background .3s
+    &-nav
+      margin: 0 auto
+      display: block
+      position: relative
+      z-index: 111
+      width: 483px
+      height: 78px
+      overflow: hidden
+    &-img
+      margin-right: 5.4px
+      width: 116px !important
+      height: 78px
+      filter: brightness(50%)
+      & > img
+        margin: 0
+        padding: 0
+        object-fit: cover
+        cursor: pointer
+        width: 100%
+        height: 100%
+  &__btn 
+    &-prev
+      background: url('../icons/arrow-prev.png') transparent center no-repeat
+      left: 0
+      &:hover
+        background: url('../icons/arrow-prev-white.png') $main-color center no-repeat
+
+    &-next               
+      background: url('../icons/arrow-next.png') transparent center no-repeat
+      right: 0
+      &:hover
+        background: url('../icons/arrow-next-white.png') $main-color center no-repeat
+
+  &__info
+    &-title
+      padding: 20px 0 20px 29px
+      background-color: $main-color
+      font-size: 28px
+      line-height: 22px
+      font-weight: 400
+      color: #ffffff
+      margin-bottom: 29px
+    &-text
+      margin-left: 29px
+      font-size: 16px
+      line-height: 24px
+      font-weight: 300
+      color: #373737
+      margin-bottom: 18px
+
+.production__slider-img.slick-current
+    filter: brightness(100%)
