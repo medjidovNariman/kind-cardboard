@@ -60,6 +60,20 @@ $(function(){
     }
   });
 
+   //On scroll fixed menu
+   $(window).scroll(function() {
+    const wh = window.innerWidth;
+    const h = window.innerHeight;
+    const window_top = $(window).scrollTop() + 1;
+    if (window_top > 100) {
+        $('.menu').addClass('menu__fixed');
+    } else {
+        $('.menu').removeClass('menu__fixed');
+    }
+
+
+});
+
 
 
 })
