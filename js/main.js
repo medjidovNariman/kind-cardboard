@@ -38,6 +38,9 @@ $(function(){
 
   //mask input modal
   $("#modal-phone").mask("+7 (999) 999-99-99");
+  $(".promo__input-text").mask("+7 (999) 999-99-99");
+  $(".spec-offer__input").mask("+7 (999) 999-99-99");
+
 
   //modal 
   $('.contacts__btn').on('click', function(){
@@ -45,6 +48,11 @@ $(function(){
   });
   $('.popup__close').on('click', function(){
     $('.overlay').hide();
+  });
+
+  //modal map 
+  $('.map__btn').on('click', function(){
+    $('.overlay').show();
   });
 
 
